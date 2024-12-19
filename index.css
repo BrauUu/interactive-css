@@ -32,25 +32,29 @@ body {
     top: -20px;
 }
 
-#main>#id-title {
+#main>#id-title:first-child {
     top: 5px;
 }
 
-#main>.title-style{
-    left: 0
+
+#main>#id-title:nth-child(2){
+    top: 35px;
+    left: 10px;
 }
 
 #main {
     display: block;
     height: 97%;
-    padding: 0px 25px 25px;
+    padding: 10px 25px 25px;
     border: 2px dashed white;
 }
 
 #style {
     display: block;
     white-space: pre-line;
-    color: #6272A4
+    padding: 10px 25px 25px;
+    color: #6272A4;
+    border: 2px dashed white;
 }
 
 [contenteditable]:focus {

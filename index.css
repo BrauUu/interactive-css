@@ -14,8 +14,11 @@
 }
 
 body {
+    background-color: #181818;
+    color: white;
     height: 100vh;
     padding: 25px;
+    border: 2px dashed white;
 }
 
 #id-title {
@@ -37,12 +40,14 @@ body {
     display: block;
     height: 97%;
     padding: 0px 25px 25px;
+    border: 2px dashed white;
 }
 
 #style {
     display: block;
     height: 100%;
     white-space: pre-line;
+    color: #6272A4
 }
 
 [contenteditable]:focus {

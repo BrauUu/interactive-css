@@ -16,7 +16,7 @@
 body {
     background-color: #181818;
     color: white;
-    height: 100vh;
+    min-height: 100vh;
     padding: 25px;
     border: 2px dashed white;
 }
